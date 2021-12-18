@@ -1,0 +1,25 @@
+.banner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* https://unsplash.com/photos/Teyrhlv0jbA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink*/
+  background-image: url("../images/2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.headline {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  font-size: 1.5rem;
+  width: 40vw;
+  height: 20vh;
+  text-align: center;
+
+  color: rgb(211, 235, 233);
+  margin: 0 auto;
+}
